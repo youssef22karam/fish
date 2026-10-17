@@ -1,0 +1,43 @@
+{
+  "template": "index.template.html",
+  "css": "css/style.css",
+  "three": [
+    "vendor/three.r128.min.part01.js",
+    "vendor/three.r128.min.part02.js",
+    "vendor/three.r128.min.part03.js",
+    "vendor/three.r128.min.part04.js",
+    "vendor/three.r128.min.part05.js",
+    "vendor/three.r128.min.part06.js",
+    "vendor/three.r128.min.part07.js",
+    "vendor/three.r128.min.part08.js",
+    "vendor/three.r128.min.part09.js",
+    "vendor/three.r128.min.part10.js",
+    "vendor/three.r128.min.part11.js",
+    "vendor/three.r128.min.part12.js",
+    "vendor/three.r128.min.part13.js",
+    "vendor/three.r128.min.part14.js",
+    "vendor/three.r128.min.part15.js",
+    "vendor/three.r128.min.part16.js",
+    "vendor/three.r128.min.part17.js",
+    "vendor/three.r128.min.part18.js",
+    "vendor/three.r128.min.part19.js",
+    "vendor/three.r128.min.part20.js",
+    "vendor/three.r128.min.part21.js",
+    "vendor/three.r128.min.part22.js"
+  ],
+  "app": [
+    "js/01_utilities.js",
+    "js/02_species_a.js",
+    "js/03_species_b.js",
+    "js/04_genus_a.js",
+    "js/05_genus_b.js",
+    "js/06_geometry_helper.js",
+    "js/07_body.js",
+    "js/08_skin_painter.js",
+    "js/09_fins.js",
+    "js/10_fins_assemble.js",
+    "js/11_genome_adapter_a.js",
+    "js/12_genome_adapter_b_and_main.js"
+  ],
+  "output": "dist/FishDraw_3D_Anatomical_v10.html"
+}

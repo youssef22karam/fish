@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>FishDraw 3D</title>
+<style>
+{{CSS}}</style></head><body>
+<canvas id="gl"></canvas>
+<div id="top"><b>FISHDRAW 3D</b><span><button id="wire">Wire</button><button id="studio">Studio</button><button id="snap">Photo</button></span></div>
+<div id="ui"><div id="card" class="p">
+<div id="fm"></div><h2 id="nm">Loading…</h2><div id="lt"></div><div id="inf"></div>
+<div class="r"><input id="q" placeholder="Type any name → its own fish…" enterkeyhint="go"><button id="go">Draw</button><button id="rnd">🎲</button><button id="swim" class="on">Swim</button></div>
+<div class="r g2"><select id="hab"><option value="any">Any habitat</option><option value="reef">Reef</option><option value="river">River</option><option value="lake">Lake</option><option value="sea">Open sea</option><option value="deep">Deep sea</option><option value="fantasy">Fantasy</option></select><label>Weird <input type="range" id="wd" min="0" max="100" value="20"></label></div>
+<div class="r g2"><select id="ga"><option value="Any">Any genome</option></select><label class="wl">mutate <input id="gmu" type="range" min="0" max="60" value="15"></label><button id="gt" class="on">Generator</button></div>
+<div id="chips"></div></div></div>
+
+<script>{{THREE}}</script>
+<script>
+{{APP}}</script></body></html>
